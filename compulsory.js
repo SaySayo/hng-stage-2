@@ -3,7 +3,7 @@ var myName = {
     lastName: "Bamigbade"
 }
 const myFunc = (firstName, lastName) => {
-    if(firstName !== "", lastName !== "") {
+    if(firstName !== "" && lastName !== "") {
     return "Hello there! My name is " + firstName + " " + lastName + "."
     }
 }
